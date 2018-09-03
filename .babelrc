@@ -1,0 +1,13 @@
+{
+  "presets": [
+    ["env", {
+      "loose": true,
+      "modules": false,
+      "useBuiltIns": false,
+      "targets": {
+        "node": "5.12.0"
+      }
+    }]
+  ],
+  "comments": false
+}

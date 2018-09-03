@@ -1,0 +1,43 @@
+{
+  "name": "hyper-allex",
+  "description": "hyper plugin with customize settings.",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "license": "MIT",
+  "author": "allex_wang <http://iallex.com/>",
+  "homepage": "https://github.com/allex/hyper-allex#README",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allex/hyper-allex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/allex/hyper-allex/issues"
+  },
+  "keywords": [
+    "hyper",
+    "hyper-plugin",
+    "opacity",
+    "solarized-theme"
+  ],
+  "scripts": {
+    "build": "npm run lint && rollup-worker -c",
+    "prepare": "npm run build",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "dependencies": {
+    "color": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "standard": {
+    "ignore": [
+      "lib"
+    ]
+  }
+}
